@@ -2,8 +2,8 @@ const lettersAndOtherThings = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
 const numbers = ["1", "2", "3", "4", "5", "6", "8", "8", "9", "0"];
 const symbols = ["!", "@", "#", "$"];
 
-passwordDisplayElement = document.querySelector("#pw-output");
-generatePasswordButton = document.querySelector("#password-button");
+const passwordDisplayElement = document.querySelector("#pw-output");
+const generatePasswordButton = document.querySelector("#password-button");
 
 generatePasswordButton.addEventListener("click", getRandomPassword);
 
