@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic');
+  
+body {
+  padding: 2vh 5vw;
+  margin: 0;
+  
+  background-color: #151515;
+  font-family: "IBM Plex Mono";
+  color: white;
+  text-align: center;
+  align-items: center;
+  place-items: center;
+}
+
+body.pancakeStack {
+  min-height: 96vh;
+  
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1 {
+  font-size: xx-large;
+  color: #39adad;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+h3 {
+  font-size: medium;
+}
+
+noscript {
+  font-size: large;
+}
+
+#password-button {
+	background-color:#151515;
+	border-radius:28px;
+	border: 1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "IBM Plex Mono";
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow: none;
+}
+#password-button:hover {
+	background-color:#575757;
+}
+#password-button:active {
+	position:relative;
+	top:1px;
+}
