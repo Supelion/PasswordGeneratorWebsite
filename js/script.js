@@ -40,5 +40,5 @@ function getRandomPassword() {
 
     const chosenPassword = char1 + char2 + char3 + char4 + char5 + char6 + char7 + char8 + char9 + char10 + char11 + char12 + char13 + char14;
 
-    passwordDisplayElement.textContent = `Your generated password is: ${chosenPassword}`;
+    passwordDisplayElement.textContent = "Your generated password is: " + chosenPassword;
 };
