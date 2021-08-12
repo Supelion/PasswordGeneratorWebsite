@@ -23,6 +23,10 @@ function getRandomPassword() {
     const char13Random = Math.floor(Math.random() * symbols.length);
     const char14Random = Math.floor(Math.random() * symbols.length);
 
+    if (char13Random == char14Random) {
+        char13Random = Math.floor(Math.random() * symbols.length);
+    };
+
     const char1 = lettersAndOtherThings[char1Random];
     const char2 = lettersAndOtherThings[char2Random];
     const char3 = lettersAndOtherThings[char3Random];
