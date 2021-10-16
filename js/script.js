@@ -8,15 +8,15 @@ const generatePasswordButton = document.querySelector("#password-button");
 generatePasswordButton.addEventListener("click", getRandomPassword);
 
 function getRandomPassword() {
-    const char1Random = Math.floor(Math.random() * lettersAndOtherThings.length);
-    const char2Random = Math.floor(Math.random() * lettersAndOtherThings.length);
-    const char3Random = Math.floor(Math.random() * lettersAndOtherThings.length);
-    const char4Random = Math.floor(Math.random() * lettersAndOtherThings.length);
+    const char1Random = Math.floor(Math.random() * letters.length);
+    const char2Random = Math.floor(Math.random() * letters.length);
+    const char3Random = Math.floor(Math.random() * letters.length);
+    const char4Random = Math.floor(Math.random() * letters.length);
     const char5Random = Math.floor(Math.random() * numbers.length);
-    const char6Random = Math.floor(Math.random() * lettersAndOtherThings.length);
-    const char7Random = Math.floor(Math.random() * lettersAndOtherThings.length);
-    const char8Random = Math.floor(Math.random() * lettersAndOtherThings.length);
-    const char9Random = Math.floor(Math.random() * lettersAndOtherThings.length);
+    const char6Random = Math.floor(Math.random() * letters.length);
+    const char7Random = Math.floor(Math.random() * letters.length);
+    const char8Random = Math.floor(Math.random() * letters.length);
+    const char9Random = Math.floor(Math.random() * letters.length);
     const char10Random = Math.floor(Math.random() * numbers.length);
     const char11Random = Math.floor(Math.random() * numbers.length);
     const char12Random = Math.floor(Math.random() * numbers.length);
